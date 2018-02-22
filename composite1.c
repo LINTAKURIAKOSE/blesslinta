@@ -6,10 +6,11 @@ int main()
   scanf("%d",&n);
   if(n%2!=0)
   {
-    printf("yes \n");
+    printf("yes");
   }
   else
   {
-    return 0;
+   printf("no");
   }
+  return 0;
 }
